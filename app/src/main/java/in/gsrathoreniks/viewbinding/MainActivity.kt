@@ -26,7 +26,10 @@ class MainActivity : AppCompatActivity() {
 
 //        Using instance of binding class to put onClickListener to button with id btnShow
         binding.btnShow.setOnClickListener {
-            //code to be executed when the button is clicked
+
+            //getting reference to textview using instance of binding class and setting text to it
+            binding.tvName.text = "Hello Friends!!!!"
+
         }
 
 
