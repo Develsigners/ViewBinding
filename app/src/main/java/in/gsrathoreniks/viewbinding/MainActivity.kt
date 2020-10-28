@@ -23,5 +23,13 @@ class MainActivity : AppCompatActivity() {
 
 //        passing the root to setContentView()
         setContentView(view)
+
+//        Using instance of binding class to put onClickListener to button with id btnShow
+        binding.btnShow.setOnClickListener {
+            //code to be executed when the button is clicked
+        }
+
+
+
     }
 }
